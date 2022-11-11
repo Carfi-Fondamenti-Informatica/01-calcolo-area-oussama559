@@ -1,25 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
 //Qui vanno definite le variabili
-  
-float a, b, c ;
-float triangolo, quadrato, rettangolo, trapezio;
-cin >> a >> b >> c;
-  
-//Qui va scritto il codice per eseguire i calcoli richiesti
-  
-  triangolo = (a*b)/2 ;
-    cout << "area triangolo :"<< triangolo<<endl;
-    quadrato = a*a ;
-    cout << "area quadrato:"<<quadrato<<endl;
-   rettangolo = a*b ;
-    cout << "area rettangolo:"<<rettangolo<<endl;
-   trapezio = ((a*b)/2)*c ;
-    cout << "area trapezio:"<<trapezio<<endl;
+    float a=0,b=0,c=0;
 
+    cin >> a >> b >> c;
+
+//Qui va scritto il codice per eseguire i calcoli richiesti
+
+    cout << (a*b)/2 <<endl;
+    cout << a*a <<endl;
+    cout << a*b <<endl;
+    cout << ((a+b)/2)*c <<endl;
     return 0;
-  
+
 }
